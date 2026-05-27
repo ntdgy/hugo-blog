@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ntdgy/hugo-blog
   branch: master
-  base_url: https://hugo.ntdgy.top
+  base_url: https://sveltia-cms-auth.dgy.workers.dev
 
 media_folder: static/images/uploads
 public_folder: /images/uploads
