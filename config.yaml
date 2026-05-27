@@ -1,0 +1,14 @@
+baseURL: https://hugo.ntdgy.top/
+locale: zh-cn
+title: 戴郭轶的个人博客
+theme: stack
+
+params:
+  author: 戴郭轶
+  description: 个人博客
+
+menu:
+  main:
+    - name: 文章
+      url: /posts/
+      weight: 10
