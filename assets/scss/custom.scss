@@ -1,7 +1,57 @@
-.widget--categories,
-  .widget--tag-cloud {
-      .widget-icon {
-          width: 20px;
-          height: 20px;
-      }
-  }
+/* 右侧 widgets 缩小 */
+.right-sidebar {
+    --widget-separation: 20px;
+
+    .widget-icon {
+        svg {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    .widget-title {
+        font-size: 1.2rem;
+    }
+}
+
+/* 缩小右侧栏整体宽度 */
+.container.extended {
+    @media (min-width: 1024px) {
+        --right-sidebar-max-width: 20%;
+    }
+    @media (min-width: 1280px) {
+        --right-sidebar-max-width: 18%;
+    }
+    @media (min-width: 1536px) {
+        --right-sidebar-max-width: 16%;
+    }
+}
+
+/* tag cloud 和 categories 字体缩小 */
+.tagCloud .tagCloud-tags a {
+    font-size: 1.0rem;
+    padding: 5px 12px;
+}
+
+.widget.archives .archives-year a {
+    font-size: 1.1rem;
+    padding: 12px 18px;
+}
+
+/* 左侧 site title 放大 */
+.sidebar header .site-name {
+    font-size: 2.4rem;
+
+    @media (min-width: 1536px) {
+        font-size: 2.8rem;
+    }
+}
+
+/* 左侧菜单（文章等）字体放大 */
+#main-menu {
+    font-size: 1.8rem;
+
+    li a {
+        font-size: 1.8rem;
+    }
+}
