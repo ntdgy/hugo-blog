@@ -12,3 +12,8 @@ menu:
     - name: 文章
       url: /posts/
       weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
