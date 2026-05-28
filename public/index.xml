@@ -5,5 +5,17 @@
         <description>Recent content on 戴郭轶的个人博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate></lastBuildDate><atom:link href="http://43.130.251.79:1313/index.xml" rel="self" type="application/rss+xml" /></channel>
+        <lastBuildDate>Thu, 28 May 2026 11:37:00 +0800</lastBuildDate><atom:link href="http://43.130.251.79:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>测试测试</title>
+            <link>http://43.130.251.79:1313/posts/2026-05-28-%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/</link>
+            <pubDate>Thu, 28 May 2026 11:37:00 +0800</pubDate>
+            <guid>http://43.130.251.79:1313/posts/2026-05-28-%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/</guid>
+            <description>&lt;p&gt;嘻嘻嘻谢谢谢谢谢谢谢谢&lt;/p&gt;&#xA;</description>
+        </item><item>
+            <title>Hello World</title>
+            <link>http://43.130.251.79:1313/posts/hello-world/</link>
+            <pubDate>Wed, 27 May 2026 19:42:34 +0800</pubDate>
+            <guid>http://43.130.251.79:1313/posts/hello-world/</guid>
+            <description></description>
+        </item></channel>
 </rss>

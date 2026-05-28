@@ -4,16 +4,29 @@ title: 戴郭轶的个人博客
 theme: stack
 
 params:
-  author: 戴郭轶
-  description: 个人博客
+    author: 戴郭轶
+    description: 个人博客
+    mainSections:
+      - posts
+    widgets:
+      homepage:
+        - type: archives
+          params:
+            limit: 5
+        - type: categories
+          params:
+            limit: 5
+        - type: tag-cloud
+          params:
+            limit: 5
 
 menu:
-  main:
-    - name: 文章
-      url: /posts/
-      weight: 10
+    main:
+      - name: 文章
+        url: /posts/
+        weight: 10
 
 outputs:
-  home:
-    - HTML
-    - RSS
+    home:
+      - HTML
+      - RSS
